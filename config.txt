@@ -49,5 +49,7 @@
     "default_styles": [],
     "default_image_prompt_checkbox": true,
     "default_advanced_checkbox": true,
-    "default_performance": "Quality"
+    "default_performance": "Quality",
+    "default_save_metadata_to_images": true,
+    "default_metadata_scheme": "fooocus"
 }
