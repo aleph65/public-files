@@ -7,19 +7,47 @@
     ],
     "path_embeddings": "/workspace/Fooocus/models/embeddings",
     "path_vae_approx": "/workspace/Fooocus/models/vae_approx",
+    "path_vae": "/workspace/Fooocus/models/vae",
     "path_upscale_models": "/workspace/Fooocus/models/upscale_models",
     "path_inpaint": "/workspace/Fooocus/models/inpaint",
     "path_controlnet": "/workspace/Fooocus/models/controlnet",
     "path_clip_vision": "/workspace/Fooocus/models/clip_vision",
     "path_fooocus_expansion": "/workspace/Fooocus/models/prompt_expansion/fooocus_expansion",
+    "path_wildcards": "/workspace/Fooocus/wildcards",
+    "path_safety_checker": "/workspace/Fooocus/models/safety_checker",
+    "path_sam": "/workspace/Fooocus/models/sam",
     "path_outputs": "/workspace/Fooocus/outputs",
-    "default_performance": "Quality",
     "default_aspect_ratio": "832*1216",
-    "default_sample_sharpness": 2.0,
-    "default_prompt": "flash photo of a gorgeous sensual mesmerizing Ukrainian Instagram model with very tan skin and perfect large breasts and long straight dark hair, posing for a picture, irresistible, photo taken by Canon Powershot Camera, aesthetic",
-    "default_cfg_scale": 4.0,
-    "default_advanced_checkbox": true
-    "default_loras": [],
     "default_model": "lustifySDXLNSFWSFW_v20.safetensors",
-    "default_styles": []
+    "default_loras": [
+        [
+            true,
+            "None",
+            0.1
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_styles": [],
+    "default_image_prompt_checkbox": true,
+    "default_advanced_checkbox": true,
+    "default_performance": "Quality"
 }
